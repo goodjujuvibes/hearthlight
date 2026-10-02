@@ -38,6 +38,6 @@ The repository's domain references point to `hearthlightguild.com`. For that cus
 
 ## Preserved history
 
-`archive/hearth-and-harbor` remains at the original `18f9589` baseline. `/concept-a/` and `/concept-b/` remain historical, `noindex,nofollow` drafts from the earlier experiment; the homepage does not use their designs or assets.
+`archive/hearth-and-harbor` remains at the original `18f9589` baseline. A faithful, `noindex,nofollow` comparison copy is published at `/archive/hearth-and-harbor/`, using the same self-hosted original fonts. Its visible content, styles, and behavior are preserved; the current Hearthlight homepage stays at `/`. `/concept-a/` and `/concept-b/` remain historical, `noindex,nofollow` drafts from the earlier experiment; the homepage does not use their designs or assets.
 
 On-page copy contains no em dashes.
