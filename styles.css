@@ -1,5 +1,5 @@
 /* =========================================================================
-   Hearth & Harbor — guild recruitment site
+   Hearthlight: guild recruitment site
    Design tokens and styles. Colors, type, and spacing follow the design
    handoff (README). All values are the settled, high-fidelity spec.
    ========================================================================= */
@@ -472,129 +472,6 @@ a:hover { color: var(--ember-hi); }
   margin: 0 auto;
 }
 
-/* ---- Meaning cards ----------------------------------------------------- */
-.meaning__lede { max-width: 770px; margin-top: 24px; }
-.cards {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-  gap: 36px;
-  margin-top: 36px;
-}
-.card {
-  position: relative;
-  overflow: hidden;
-  padding: 26px 28px;
-  border: 1px solid;
-  cursor: pointer;
-  transition: all .2s;
-}
-.card--hearth {
-  background: linear-gradient(180deg, #f3e9d8, #e2d5bd);
-  border-color: #cdbb96;
-}
-.card--hearth:hover {
-  border-color: #c99a4e;
-  box-shadow: 0 7px 22px rgba(120, 70, 20, .16);
-  transform: translateY(-2px);
-}
-.card--harbor {
-  background: linear-gradient(180deg, #dbe8e5, #bcd2cc);
-  border-color: #a2bfba;
-}
-.card--harbor:hover {
-  border-color: #7fa8ad;
-  box-shadow: 0 7px 22px rgba(20, 80, 90, .16);
-  transform: translateY(-2px);
-}
-.card__glow {
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 0;
-  height: 64px;
-  pointer-events: none;
-}
-.card--hearth .card__glow { background: linear-gradient(180deg, rgba(217, 143, 52, .15), transparent); }
-.card--harbor .card__glow { background: linear-gradient(180deg, rgba(23, 112, 126, .11), transparent); }
-.card__title {
-  position: relative;
-  font-family: var(--f-heading);
-  font-weight: 700;
-  font-size: 20px;
-  margin-bottom: 8px;
-}
-.card--hearth .card__title { color: var(--deep-rust); }
-.card--harbor .card__title { color: var(--teal); }
-.card__desc {
-  position: relative;
-  font-family: var(--f-body);
-  font-size: 16.5px;
-  line-height: 1.6;
-}
-.card--hearth .card__desc { color: #69563a; } /* darkened from --ink-muted for AA on the card gradient */
-.card--harbor .card__desc { color: #485960; } /* darkened for AA on the card gradient */
-.read-more {
-  position: relative;
-  display: inline-flex;
-  align-items: center;
-  gap: 7px;
-  margin-top: 16px;
-  font-family: var(--f-label);
-  font-weight: 700;
-  font-size: 12px;
-  letter-spacing: .14em;
-  transition: gap .2s;
-}
-.card--hearth .read-more { color: var(--deep-rust); }
-.card--harbor .read-more { color: var(--teal); }
-.card:hover .read-more { gap: 11px; }
-.read-more span { font-size: 14px; }
-
-/* ---- Why we gather ----------------------------------------------------- */
-.thesis { max-width: 780px; }
-.thesis + .thesis { margin-top: 22px; }
-
-/* ---- The Way (principles) --------------------------------------------- */
-/* dot-line text link (charter / discord) */
-.textlink {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: clamp(10px, 2vw, 14px);
-  cursor: pointer;
-  width: 100%;
-  transition: filter .25s;
-  text-decoration: none;
-}
-.textlink:hover { filter: brightness(.75); }
-.textlink__line {
-  flex: 1 1 auto;
-  height: 1px;
-}
-.textlink__line--l { background: linear-gradient(90deg, transparent, #a8946a); }
-.textlink__line--r { background: linear-gradient(270deg, transparent, #a8946a); }
-.textlink__dot {
-  flex: none;
-  width: 4px;
-  height: 4px;
-  border-radius: 50%;
-  background: var(--rust);
-}
-.textlink__label {
-  flex: none;
-  font-family: var(--f-heading);
-  font-weight: 600;
-  letter-spacing: .12em;
-  color: var(--rust);
-  white-space: nowrap;
-}
-.charter-link {
-  max-width: 420px;
-}
-.charter-link .textlink__label {
-  font-size: clamp(12px, 3.4vw, 15px);
-}
-
 /* ---- What the company does (list) ------------------------------------- */
 .gl__intro { max-width: 720px; margin: 0 auto 34px; }
 .dolist {
@@ -624,90 +501,6 @@ a:hover { color: var(--ember-hi); }
   font-size: 16px;
   color: var(--ink-muted);
   margin-top: 30px;
-}
-
-/* ---- Be good company (pillars) ---------------------------------------- */
-.gather-sub {
-  font-family: var(--f-body);
-  font-size: 17px;
-  color: var(--ink-muted);
-  line-height: 1.7;
-  max-width: 640px;
-  margin: 12px auto 0;
-}
-.pillars {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-  gap: 20px 44px;
-  max-width: 820px;
-  margin: 0 auto;
-}
-.pillar {
-  display: flex;
-  gap: 14px;
-}
-.pillar__mark {
-  color: var(--teal);
-  font-size: 18px;
-  line-height: 1.3;
-}
-.pillar__title {
-  font-family: var(--f-heading);
-  font-weight: 700;
-  font-size: 17.5px;
-  color: var(--ink-heading);
-}
-.pillar__desc {
-  font-family: var(--f-body);
-  font-size: 16px;
-  color: var(--ink-muted);
-  line-height: 1.6;
-  margin-top: 2px;
-}
-
-/* ---- Corpse-run quote band -------------------------------------------- */
-.quoteband {
-  position: relative;
-  overflow: hidden;
-  text-align: center;
-  padding: clamp(34px, 6vw, 58px) var(--pad-x);
-  background: linear-gradient(180deg, #241b12, #1a1109);
-  border-top: 2px solid var(--brass);
-  border-bottom: 2px solid var(--brass);
-}
-.quoteband__glow {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  width: 700px;
-  height: 250px;
-  pointer-events: none;
-  background: radial-gradient(ellipse, rgba(232, 150, 63, .15), transparent 70%);
-}
-.quoteband__inner { position: relative; }
-.quoteband__eyebrow {
-  font-family: var(--f-label);
-  font-weight: 700;
-  font-size: 12.5px;
-  letter-spacing: .2em;
-  color: var(--tagline-amber);
-  margin-bottom: 18px;
-}
-.quoteband__quote {
-  font-family: var(--f-body);
-  font-style: italic;
-  font-size: clamp(20px, 4.5vw, 28px);
-  color: #ecdcbf;
-  line-height: 1.5;
-  max-width: 740px;
-  margin: 0 auto;
-}
-.quoteband__sub {
-  font-family: var(--f-body);
-  font-size: 15px;
-  color: var(--night-body);
-  margin-top: 16px;
 }
 
 /* ---- FAQ --------------------------------------------------------------- */
@@ -754,8 +547,8 @@ a:hover { color: var(--ember-hi); }
   opacity: 0;
   transition: max-height .38s ease, opacity .3s ease;
 }
-.faq__item.is-open .faq__a {
-  max-height: 600px;
+.faq__item[open] .faq__a {
+  max-height: none;
   opacity: 1;
 }
 .faq__a-inner {
@@ -772,116 +565,6 @@ a:hover { color: var(--ember-hi); }
 
 /* consistent in-paragraph break, matches the 12px p + p rhythm */
 .para-break { display: block; height: 12px; }
-
-/* hearth / harbor term highlights */
-.hl-hearth { color: var(--rust); font-weight: 700; }
-.hl-harbor { color: var(--teal); font-weight: 700; }
-
-/* discord channel chip */
-.channel {
-  font-weight: 600;
-  padding: 1px 6px;
-  border-radius: 4px;
-  white-space: nowrap;
-}
-.channel--dock { color: var(--teal); background: rgba(20, 96, 110, 0.1); }
-.channel--fire { color: var(--rust); background: rgba(154, 78, 23, 0.1); }
-
-/* roster teaser section + overlay */
-.roster-teaser__line { max-width: 560px; margin: 0 auto 22px; }
-.roster-open {
-  background: none;
-  border: none;
-  padding: 0;
-  margin: 0 auto;
-  max-width: 420px;
-  font: inherit;
-  color: inherit;
-}
-.roster-open:hover .charter-arrow,
-.roster-open:focus-visible .charter-arrow { color: var(--ember); }
-.overlay__panel--roster { text-align: center; }
-.roster {
-  max-width: 420px;
-  margin: 22px auto 0;
-  text-align: left;
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-}
-.roster__row { display: grid; grid-template-columns: 130px 1fr; align-items: baseline; column-gap: 16px; }
-.roster__name { font-family: var(--f-heading); font-size: 19px; font-weight: 600; color: var(--ink-heading); }
-.roster__class { font-family: var(--f-body); font-size: 17px; color: var(--ink-body); }
-.roster__alts { margin-top: 8px; }
-.roster__alts-summary {
-  list-style: none;
-  cursor: pointer;
-  font-family: var(--f-label);
-  font-size: 12px;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-  color: var(--brass);
-  transition: color 0.2s ease;
-}
-.roster__alts-summary::-webkit-details-marker { display: none; }
-.roster__alts-summary:hover { color: var(--ember); }
-.roster__alts-label::after { content: " \25BE"; }
-.roster__alts[open] .roster__alts-label::after { content: " \25B4"; }
-.roster__alt {
-  display: grid;
-  grid-template-columns: 112px 1fr;
-  align-items: baseline;
-  column-gap: 16px;
-  margin: 9px 0 0 18px;
-}
-.roster__alt .roster__name { font-size: 16px; font-weight: 500; color: var(--ink-body); }
-.roster__alt .roster__class { font-size: 15px; color: var(--ink-muted); }
-
-/* charter toggle arrows (flank the label, flip open) */
-.charter-arrow {
-  display: inline-block;
-  color: var(--brass);
-  font-size: 22px;
-  line-height: 1;
-  vertical-align: middle;
-  transition: transform 0.3s ease, color 0.2s ease;
-}
-.charter-arrow::before { content: "\25BE"; }
-/* vertical flip on open (down -> up); passes through a flat sliver, never sideways */
-.charter-details[open] .charter-arrow { transform: scaleY(-1); }
-/* subtle hover affordance: just brighten, no movement */
-.charter-summary:hover .charter-arrow,
-.charter-summary:focus-visible .charter-arrow { color: var(--ember); }
-
-/* ---- Joining ----------------------------------------------------------- */
-.join-section { padding-bottom: 70px; border-top: 1px solid var(--hairline); border-bottom: none; }
-.steps {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 40px;
-}
-.step { text-align: center; }
-.step__num {
-  font-family: var(--f-heading);
-  font-weight: 700;
-  font-size: 42px;
-  color: var(--teal);
-  line-height: 1;
-}
-.step__title {
-  font-family: var(--f-heading);
-  font-weight: 700;
-  font-size: 20px;
-  color: var(--ink-heading);
-  margin-top: 12px;
-}
-.step__desc {
-  font-family: var(--f-body);
-  font-size: 16.5px;
-  color: var(--ink-muted);
-  line-height: 1.65;
-  margin-top: 8px;
-}
 
 /* ============ FOOTER =================================================== */
 .footer {
@@ -1039,17 +722,6 @@ a:hover { color: var(--ember-hi); }
   background-clip: padding-box;
 }
 .overlay__panel::-webkit-scrollbar-thumb:hover { background: rgba(176, 141, 79, .82); background-clip: padding-box; }
-/* Cool scrollbar for the harbor-toned panels */
-.overlay__panel--harbor,
-.overlay__panel--join.is-harbor { scrollbar-color: rgba(20, 96, 110, .55) transparent; }
-.overlay__panel--harbor::-webkit-scrollbar-thumb,
-.overlay__panel--join.is-harbor::-webkit-scrollbar-thumb { background: rgba(20, 96, 110, .5); background-clip: padding-box; }
-.overlay__panel--harbor {
-  border-color: var(--teal);
-  background: radial-gradient(ellipse at 50% 0%, #e7f0ed, #cfe0da 70%);
-}
-.overlay__panel--join { width: 540px; padding: clamp(32px, 6vw, 52px) clamp(24px, 6vw, 52px); }
-.overlay__panel--charter { width: 760px; }
 .overlay__panel--plain { background: radial-gradient(ellipse at 50% 0%, #f4ebd6, #ede2c8 70%); }
 .overlay__close {
   position: absolute;
@@ -1071,8 +743,6 @@ a:hover { color: var(--ember-hi); }
   transition: color .18s;
 }
 .overlay__close:hover { color: var(--ink-heading); }
-.overlay__panel--harbor .overlay__close { color: #5f7a7e; }
-.overlay__panel--harbor .overlay__close:hover { color: var(--teal); }
 
 .overlay__glyph { display: block; margin: 0 auto 14px; }
 .overlay__glyph--flame { filter: drop-shadow(0 0 10px rgba(232, 150, 63, .4)); }
@@ -1095,7 +765,6 @@ a:hover { color: var(--ember-hi); }
   text-align: center;
   margin-bottom: 26px;
 }
-.overlay__title--harbor { color: #243238; }
 .overlay__title--join { font-size: clamp(24px, 5vw, 30px); margin-bottom: 8px; }
 .overlay__title--charter { margin-bottom: 30px; }
 .overlay__prose {
@@ -1107,9 +776,7 @@ a:hover { color: var(--ember-hi); }
   color: var(--ink-body);
   line-height: 1.75;
 }
-.overlay__prose--harbor { color: #33414a; }
 .overlay__prose b { color: var(--deep-rust); }
-.overlay__prose--harbor b { color: var(--teal); }
 .overlay__closing {
   text-align: center;
   font-family: var(--f-heading);
@@ -1118,124 +785,6 @@ a:hover { color: var(--ember-hi); }
   color: var(--rust);
   margin-top: 26px;
 }
-.overlay__closing--harbor { color: var(--teal); }
-
-/* join overlay specifics */
-.join-intro {
-  font-family: var(--f-body);
-  font-style: italic;
-  font-size: 17px;
-  color: var(--ink-muted);
-  text-align: center;
-  max-width: 520px;
-  margin: 0 auto 28px;
-  line-height: 1.6;
-}
-.join-steps {
-  display: flex;
-  flex-direction: column;
-  gap: 18px;
-  max-width: 520px;
-  margin: 0 auto;
-}
-.join-step {
-  display: flex;
-  gap: 18px;
-  align-items: flex-start;
-}
-.join-step__num {
-  font-family: var(--f-heading);
-  font-weight: 700;
-  font-size: 30px;
-  color: var(--rust);
-  line-height: 1;
-  flex: none;
-  min-width: 26px;
-}
-/* Hearth skin (default): flame glyph shows, lighthouse hidden. */
-.join-glyph--harbor { display: none; }
-.join-step__title {
-  font-family: var(--f-heading);
-  font-weight: 700;
-  font-size: 18px;
-  color: var(--ink-heading);
-}
-.join-step__desc {
-  font-family: var(--f-body);
-  font-size: 16.5px;
-  color: var(--ink-body);
-  line-height: 1.65;
-  margin-top: 3px;
-}
-.join-discord-wrap {
-  display: flex;
-  justify-content: center;
-  margin-top: 30px;
-}
-.join-discord { max-width: 360px; }
-.join-discord .textlink__label { font-size: 15px; }
-.join-closing {
-  text-align: center;
-  font-family: var(--f-body);
-  font-style: italic;
-  font-size: 15px;
-  color: var(--ink-muted);
-  margin-top: 18px;
-}
-
-/* Harbor skin for the join overlay — same content as the hearth skin, dressed
-   to match The Harbor overlay. Applied when opened from the footer "Come sit
-   down" (teal) button; the hero "Join the company" button keeps the hearth skin. */
-.overlay__panel--join.is-harbor {
-  border-color: var(--teal);
-  background: radial-gradient(ellipse at 50% 0%, #e7f0ed, #cfe0da 70%);
-}
-.overlay__panel--join.is-harbor .join-glyph--hearth { display: none; }
-.overlay__panel--join.is-harbor .join-glyph--harbor { display: block; }
-.overlay__panel--join.is-harbor .overlay__eyebrow { color: var(--teal); }
-.overlay__panel--join.is-harbor .overlay__title { color: #243238; }
-.overlay__panel--join.is-harbor .join-intro { color: #4f6169; }
-.overlay__panel--join.is-harbor .join-step__num { color: var(--teal); }
-.overlay__panel--join.is-harbor .join-step__title { color: #243238; }
-.overlay__panel--join.is-harbor .join-step__desc { color: #33414a; }
-.overlay__panel--join.is-harbor .join-closing { color: #4f6169; }
-.overlay__panel--join.is-harbor .overlay__close { color: #5f7a7e; }
-.overlay__panel--join.is-harbor .overlay__close:hover { color: var(--teal); }
-.overlay__panel--join.is-harbor .join-discord .textlink__label { color: var(--teal); }
-.overlay__panel--join.is-harbor .join-discord .textlink__dot { background: var(--teal); }
-.overlay__panel--join.is-harbor .join-discord .textlink__line--l { background: linear-gradient(90deg, transparent, #7fa8ad); }
-.overlay__panel--join.is-harbor .join-discord .textlink__line--r { background: linear-gradient(270deg, transparent, #7fa8ad); }
-
-/* charter overlay */
-/* the litany: the charter's poem, sitting above the articles */
-.litany {
-  font-family: var(--f-body);
-  font-style: normal;
-  font-weight: 500;
-  font-size: clamp(18px, 3.4vw, 21px);
-  line-height: 1.9;
-  color: var(--ink-heading);
-  text-align: center;
-  max-width: 640px;
-  margin: 0 auto 40px;
-}
-/* the litany's closing line: same italic look, a touch bolder. Appears in the
-   litany itself, and again at the end of the expanded full charter. */
-.litany__all { font-weight: 600; font-style: italic; }
-.litany--coda { margin: 30px auto 0; font-weight: 600; font-style: italic; max-width: 720px; text-align: left; }
-
-/* expandable full charter */
-.charter-details {
-  max-width: 720px;
-  margin: 26px auto 0;
-}
-.charter-details > summary {
-  list-style: none;
-  cursor: pointer;
-}
-.charter-details > summary::-webkit-details-marker { display: none; }
-.charter-details[open] .lbl-closed { display: none; }
-.charter-details:not([open]) .lbl-open { display: none; }
 
 .charter-list {
   display: flex;
@@ -1274,4 +823,117 @@ a:hover { color: var(--ember-hi); }
   .card,
   .overlay__panel { border: 1px solid CanvasText; }
   :focus-visible { outline: 2px solid Highlight; outline-offset: 3px; }
+}
+
+/* Targeted Hearthlight additions to the archived H&H design. */
+[hidden] { display: none !important; }
+html { scroll-padding-top: 24px; }
+body:has(.invite-dialog[open]) { overflow: hidden; }
+.skip-link {
+  position: fixed;
+  top: 12px;
+  left: 12px;
+  z-index: 110;
+  padding: 12px 20px;
+  background: var(--parchment-deep);
+  color: var(--ink-heading);
+  transform: translateY(-160%);
+}
+.skip-link:focus { transform: none; }
+.hero__identity {
+  font-family: var(--f-label);
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: .08em;
+  color: var(--night-motto);
+  margin: 16px 0 0;
+}
+.hero__server {
+  font-family: var(--f-body);
+  font-size: 16px;
+  letter-spacing: .03em;
+  color: var(--night-meta);
+  margin: 8px 0 0;
+}
+.hero__identity span, .hero__server span { padding: 0 7px; }
+.invite-note {
+  font-family: var(--f-body);
+  font-size: 15px;
+  font-style: italic;
+  color: var(--night-body);
+  margin: 16px 0 0;
+}
+.page-nav {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px 22px;
+  margin-top: 28px;
+  font-family: var(--f-label);
+  font-size: 12px;
+  letter-spacing: .06em;
+}
+.page-nav a { color: var(--night-italic); text-decoration: none; padding: 6px 2px; }
+.page-nav a:hover { color: var(--ember-hi); }
+.section-prose {
+  max-width: 720px;
+  margin: 24px auto 0;
+  font-family: var(--f-body);
+  font-size: 18.5px;
+  line-height: 1.8;
+  color: var(--ink-body);
+}
+.section-prose p { margin: 0; }
+.section-prose p + p { margin-top: 18px; }
+/* The existing darker rust meets contrast requirements on deep parchment. */
+.section--deep .eyebrow { color: var(--deep-rust); }
+.founding-prose { text-align: center; }
+.founding-quote, .rp-quote {
+  font-family: var(--f-body);
+  font-style: italic;
+  font-weight: 500;
+  font-size: clamp(19px, 3.4vw, 22px);
+  line-height: 1.6;
+  color: var(--ink-heading);
+  text-align: center;
+  margin: 24px auto;
+}
+.rp-quote { color: var(--teal); }
+.gl__intro { margin-top: 24px; }
+.dolist { padding: 0; list-style: none; }
+.charter-item__title { margin: 0; }
+.recovery-note { max-width: 720px; margin-left: auto; margin-right: auto; line-height: 1.7; }
+.faq__list { margin-top: 26px; }
+.faq__q { list-style: none; }
+.faq__q::-webkit-details-marker { display: none; }
+.faq__icon::before { content: '+'; }
+.faq__item[open] .faq__icon::before { content: '−'; }
+.colophon__meta { line-height: 1.8; }
+.colophon__meta span { padding: 0 6px; }
+.invite-dialog { width: 480px; max-width: calc(100% - 32px); text-align: center; }
+.invite-dialog::backdrop { background: rgba(8, 14, 20, .74); backdrop-filter: blur(3px); }
+.dialog-logo { margin-bottom: 18px; }
+.join-intro {
+  font-family: var(--f-body);
+  font-size: 18px;
+  color: var(--ink-body);
+  line-height: 1.7;
+  margin: 0 0 24px;
+}
+.dialog-dismiss {
+  font-family: var(--f-label);
+  font-size: 15px;
+  color: var(--deep-rust);
+  border: 1px solid var(--brass);
+  background: transparent;
+  padding: 12px 22px;
+  cursor: pointer;
+}
+.dialog-dismiss:hover { background: var(--parchment-deep); }
+@media (max-width: 420px) {
+  .hero__identity { font-size: 13px; }
+  .hero__identity span { padding: 0 3px; }
+  .page-nav { gap: 5px 16px; }
+  .founding-quote br { display: none; }
+  .cta, .cta--cool { padding-left: 22px; padding-right: 22px; }
 }

@@ -1,52 +1,43 @@
-# Hearth &amp; Harbor
+# Hearthlight
 
-A single-page recruitment site for **Hearth &amp; Harbor**, a small old-school
-[Monsters &amp; Memories](https://www.monstersandmemories.com/) MMO guild.
+A small **Social PvE · Light–Medium RP** guild in [Monsters & Memories](https://www.monstersandmemories.com/), on **Tilustra, US East PvE**.
 
-> A place to return to. People to set out with.
-> At first light, we set out. By firelight, we return.
+> Good company for the Age of Discovery.
 
-Built as a plain static site — no build step, no dependencies. Just HTML, CSS,
-and a small vanilla-JS file.
+Hearthlight began in October 2026. Its founding group is still taking shape; the guild is being built together rather than around one traditional GM.
 
-## Files
+## Website
+
+Plain static HTML, CSS, and vanilla JavaScript. No framework, dependencies, or build step. The visual foundation is the original Hearth & Harbor site at `18f9589`: dark blue night, stars, warm firelight, alternating parchment, brass, restrained teal, and its original typography and hearth mark.
+
+The page order is hero, founding, guild life, roleplay, short charter, questions, and closing invitation. The old roster and harbor-specific imagery are removed.
 
 | File | Purpose |
 |---|---|
-| `index.html` | The full one-page site (hero → footer) plus all five modal overlays. |
-| `styles.css` | All styling, driven by design tokens (CSS custom properties in `:root`). |
-| `app.js` | Overlay open/close, single-open FAQ accordion, and Discord CTA wiring. |
-| `.github/workflows/deploy.yml` | GitHub Pages deployment (publishes on push to `main`). |
+| `index.html` | The Hearthlight homepage, metadata, FAQ, and Discord placeholder dialog. |
+| `styles.css` | The archived visual foundation with targeted additions for the new content. |
+| `app.js` | Shared Discord invite setting, accessible dialog, and mobile Back behavior. |
+| `fonts.css`, `assets/fonts/` | The original Almendra SC, Vollkorn, Cardo, and EB Garamond families, self-hosted with license notices. |
+| `hearthlight-mark.svg`, `hearthlight-social.png` | Original hearth glyph and the Hearthlight social preview card. |
+| `CNAME`, `robots.txt`, `sitemap.xml` | References for `hearthlightguild.com`. |
+| `.github/workflows/deploy.yml` | GitHub Pages deployment on pushes to `main`. |
 
-## Running locally
+## Preview locally
 
-It's static, so any file server works:
+Run `python3 -m http.server 8000` from the repository root, then open `http://localhost:8000/`.
 
-```bash
-# Python 3
-python3 -m http.server 8000
-# then open http://localhost:8000
-```
+## Discord invite
 
-Opening `index.html` directly in a browser also works.
+Replace `null` in `const DISCORD_URL` at the top of `app.js` with the new Hearthlight invite. Both join links then open Discord, and the coming-soon notes disappear. Until then, the links open an accessible, honestly labeled placeholder dialog. The old H&H invite is not used.
 
-## Deploying to GitHub Pages
+## Deployment and domain
 
-1. Push to the `main` branch.
-2. In the repo: **Settings → Pages → Build and deployment → Source → GitHub Actions**.
-3. The included workflow publishes the site automatically.
+GitHub Pages must use **GitHub Actions** as its build source, and its `github-pages` environment must allow `main`. The configured Pages URL is reported by the deployment.
 
-Because the site lives at the repo root and uses only relative paths, it works
-whether Pages serves from a project subpath (`user.github.io/repo/`) or a custom
-domain — no base-path configuration needed.
+The repository's domain references point to `hearthlightguild.com`. For that custom domain to serve the site, it must also be configured under **Settings → Pages → Custom domain**, with the domain's DNS pointing to GitHub Pages. A CNAME file alone does not configure a custom domain for an Actions deployment.
 
-## Design
+## Preserved history
 
-Recreated from the Claude Design handoff. Colors, typography, spacing, copy, and
-interactions follow that spec. Fonts (Almendra SC, Vollkorn, Cardo, EB Garamond)
-load from Google Fonts. All glyphs (hearth arch, flame, lighthouse) are inline
-SVG; the starfields and ember glows are pure CSS radial gradients — there are no
-raster image assets.
+`archive/hearth-and-harbor` remains at the original `18f9589` baseline. `/concept-a/` and `/concept-b/` remain historical, `noindex,nofollow` drafts from the earlier experiment; the homepage does not use their designs or assets.
 
-Copy note: there are **no em dashes** anywhere in the on-page copy, by choice.
-Keep it that way when editing.
+On-page copy contains no em dashes.

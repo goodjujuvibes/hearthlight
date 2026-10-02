@@ -5,7 +5,7 @@ Two complete static design drafts, with the same substantive guild copy:
 - `/concept-a/`: Evolution. Blue night, the original hearth mark, brass, parchment, restrained teal, and a guild folio layout.
 - `/concept-b/`: Reinterpretation. A full-width illustrated wilderness, a distant road, a small campfire, forest colors, and an evening journal layout.
 
-Both use the tagline **Good company for the Age of Discovery.** Both are marked `noindex,nofollow`. The original root homepage, CNAME, and archived baseline are unchanged.
+Both use the tagline **Good company for the Age of Discovery.** Both are marked `noindex,nofollow`. These are historical drafts from commit `1dc1fa0`. The current homepage uses the original archived H&H design with the approved Hearthlight conversion. The archive baseline remains unchanged.
 
 ## Preview
 
@@ -26,4 +26,4 @@ The concept HTML is intentionally static, readable, and usable without a build s
 
 When editing guild copy, apply the same change to both HTML pages. Differences in typography, layout, line breaks, illustrations, or hidden decorative captions are intentional. No substantive copy differs.
 
-The archive branch remains the original Hearth & Harbor site at `18f9589`. Choosing a concept for the root homepage, changing the domain, and using a real Discord invite are separate next steps.
+The archive branch remains the original Hearth & Harbor site at `18f9589`. Both concepts were declined as the homepage direction. The root homepage now uses a targeted conversion of the archived original design. Their copy is historical and is not the current guild governance wording.

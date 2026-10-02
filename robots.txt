@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://hearthandharbor.co/sitemap.xml
+Sitemap: https://hearthlightguild.com/sitemap.xml
