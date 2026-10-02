@@ -68,12 +68,19 @@ body {
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
 }
-/* The vignette only shows in the desktop side margins (page caps at 1080px),
-   so pin it to the viewport there. Below that the page is full-width and the
-   dark body background is not visible, so a fixed background would be pure
-   scroll cost on mobile with nothing to show for it. */
+/* Keep the original desktop vignette in a cached layer. A fixed background
+   on the scrolling body repaints the hero's gradients and filters on scroll. */
 @media (min-width: 1081px) {
-  body { background-attachment: fixed; }
+  body { isolation: isolate; }
+  body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    z-index: -1;
+    pointer-events: none;
+    background: inherit;
+    transform: translateZ(0);
+  }
 }
 
 a { color: var(--ember); }
@@ -207,6 +214,8 @@ a:hover { color: var(--ember-hi); }
 }
 
 /* ============ HERO ====================================================== */
+/* Cache the original stars, grain, and glow together as the page scrolls. */
+.hero, .footer { isolation: isolate; transform: translateZ(0); }
 .hero {
   position: relative;
   overflow: hidden;
@@ -828,6 +837,7 @@ a:hover { color: var(--ember-hi); }
 /* Targeted Hearthlight additions to the archived H&H design. */
 [hidden] { display: none !important; }
 html { scroll-padding-top: 24px; }
+html:has(.invite-dialog[open]),
 body:has(.invite-dialog[open]) { overflow: hidden; }
 .skip-link {
   position: fixed;
@@ -910,7 +920,16 @@ body:has(.invite-dialog[open]) { overflow: hidden; }
 .faq__item[open] .faq__icon::before { content: '−'; }
 .colophon__meta { line-height: 1.8; }
 .colophon__meta span { padding: 0 6px; }
-.invite-dialog { width: 480px; max-width: calc(100% - 32px); text-align: center; }
+.invite-dialog {
+  /* Match the original viewport-fixed overlays. Native modal dialogs default
+     to absolute positioning, which scrolls their focus target into view. */
+  position: fixed;
+  inset: 0;
+  margin: auto;
+  width: 480px;
+  max-width: calc(100% - 32px);
+  text-align: center;
+}
 .invite-dialog::backdrop { background: rgba(8, 14, 20, .74); backdrop-filter: blur(3px); }
 .dialog-logo { margin-bottom: 18px; }
 .join-intro {
