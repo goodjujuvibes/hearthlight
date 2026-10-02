@@ -1,0 +1,109 @@
+/* A / Evolution: an illuminated guild folio under a blue night. */
+.concept-a {
+  --rule: #cabea6;
+  --focus: #844722;
+  --muted-ink: #6b604e;
+  --teal: #2d6264;
+  --cream: #e6ddc9;
+  color: var(--ink);
+  background: #07141f;
+}
+.concept-a main, .concept-a .site-header, .concept-a .site-footer { max-width: 1320px; margin: auto; }
+.concept-a .site-header { background: #0c1e2d; color: var(--cream); border-left: 1px solid #27303a; border-right: 1px solid #27303a; }
+.concept-a .hero { color: var(--cream); background: linear-gradient(160deg, #0c1e2d, #0a1a28 55%, #15252e); text-align: center; }
+.concept-a .hero-content { padding: 34px 24px 48px; }
+.concept-a .hero-scene { background: radial-gradient(ellipse 55% 40% at 50% 108%, #b65d2580, #e8983826 47%, transparent 90%), radial-gradient(ellipse 70% 90% at 50% 5%, #21445345, transparent 70%); }
+.concept-a .hero-stars { background-image: radial-gradient(1px 1px at 8% 15%, #aec4c6 99%, transparent), radial-gradient(1px 1px at 20% 39%, #b1a682 99%, transparent), radial-gradient(1.4px 1.4px at 30% 10%, #cbd2c4 99%, transparent), radial-gradient(1px 1px at 42% 22%, #7c929e 99%, transparent), radial-gradient(1px 1px at 58% 17%, #d0c8b1 99%, transparent), radial-gradient(1.5px 1.5px at 75% 12%, #b1beb6 99%, transparent), radial-gradient(1px 1px at 84% 42%, #a8a688 99%, transparent), radial-gradient(1px 1px at 92% 22%, #a8b9b8 99%, transparent), radial-gradient(1px 1px at 10% 70%, #879b9d 99%, transparent), radial-gradient(1px 1px at 87% 71%, #879b9d 99%, transparent); opacity: .75; }
+.concept-a .hero-emblem { width: 100px; height: 100px; position: relative; margin: 0 auto 22px; display: grid; place-items: center; }
+.concept-a .hero-emblem .hearth-mark { width: 68px; height: 68px; }
+.concept-a .emblem-orbit { position: absolute; inset: 0; border: 1px solid #bca16a50; border-radius: 50%; }
+.concept-a .emblem-orbit::after { content: '✦'; position: absolute; top: -9px; left: calc(50% - 6px); color: var(--brass); background: #112532; padding: 0 2px; font-size: 12px; }
+.concept-a .hero-game { color: #afb9b6; margin-bottom: 15px; }
+.concept-a .wordmark { font-size: clamp(54px, 8vw, 96px); color: #f2e8d3; text-shadow: 0 2px 24px #e8a15518; }
+.concept-a .hero-identity { color: #c0c6b9; }
+.concept-a .ornament { justify-content: center; margin: 18px 0; }
+.concept-a .tagline { font-family: var(--font-heading); font-size: clamp(25px, 3vw, 36px); color: #e8c18a; letter-spacing: -.02em; }
+.concept-a .a-break { display: none; }
+.concept-a .hero-description { margin: 18px auto 29px; color: #bec8bc; font-size: 20px; }
+.concept-a .invite-note { color: #b4b8a9; }
+.concept-a .hero-foot { border-top: 1px solid #bca16a38; border-bottom: 1px solid #bca16a; color: #bac2b8; padding: 20px var(--gutter); background: #07162066; }
+.concept-a .hero a:focus-visible, .concept-a .site-header :focus-visible, .concept-a .roleplay :focus-visible, .concept-a .join :focus-visible, .concept-a .site-footer :focus-visible { outline-color: var(--fire-core); }
+.concept-a .section:not(.roleplay):not(.join) { background-color: var(--paper); background-image: url('./assets/paper.svg'); }
+.concept-a .founding { border-bottom: 1px solid var(--rule); }
+.concept-a .section-heading .eyebrow { color: #845834; }
+.concept-a .section-index { color: #826d47; }
+.concept-a .founding-layout { display: grid; grid-template-columns: 1fr 1.35fr; gap: 90px; }
+.concept-a .section-intro { color: var(--muted-ink); }
+.concept-a .founding-copy blockquote { color: #4e634e; border-color: #769079; font-style: italic; }
+.concept-a .founding-last { color: var(--muted-ink); }
+.concept-a .guild-life { background-color: #e5dbc6 !important; }
+.concept-a .life-layout { display: grid; grid-template-columns: 1.7fr 1fr; gap: 45px; align-items: center; }
+.concept-a .activities { grid-template-columns: 1fr 1fr; gap: 35px 34px; }
+.concept-a .activity > svg { color: var(--teal); }
+.concept-a .activity h3 { font-size: 21px; }
+.concept-a .activity p { color: #62533e; }
+.concept-a .field-map { padding: 0 8px; }
+.concept-a .field-map img { width: 100%; opacity: .8; }
+.concept-a .map-caption { color: #77684c; margin-top: -10px; }
+.concept-a .roleplay { color: #dbdfcf; background: radial-gradient(ellipse at 15% 60%, #40665a45, transparent 60%), #143438; border-top: 1px solid #9c9b674d; border-bottom: 1px solid #a7ab755c; }
+.concept-a .rp-layout { grid-template-columns: .65fr 1fr; max-width: 1000px; }
+.concept-a .rp-illustration { opacity: .9; }
+.concept-a .rp-illustration img { width: 230px; }
+.concept-a .rp-illustration span { color: #a8b8a6; margin-top: 10px; }
+.concept-a .rp-copy h2 { color: #f0e5cd; }
+.concept-a .rp-copy h2 br { display: none; }
+.concept-a .rp-copy .eyebrow { color: #c2ad7a; }
+.concept-a .rp-copy .section-index { color: #a4aa81; }
+.concept-a .rp-copy blockquote { color: #e4c08d; }
+.concept-a .culture .section-heading { text-align: center; }
+.concept-a .principles { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 0; }
+.concept-a .principles li { padding: 0 30px; border-right: 1px solid var(--rule); }
+.concept-a .principles li:first-child { padding-left: 0; }
+.concept-a .principles li:last-child { padding-right: 0; border: 0; }
+.concept-a .principle-number { display: block; color: #8e6945; margin-bottom: 18px; }
+.concept-a .principles h3 { font-size: 23px; }
+.concept-a .principles p { color: #62533e; }
+.concept-a .questions { border-top: 1px solid var(--rule); background-color: #e5dbc6 !important; }
+.concept-a .faq-layout { display: grid; grid-template-columns: .85fr 1.4fr; gap: 85px; }
+.concept-a .answer { color: #62533e; }
+.concept-a summary:hover { color: var(--teal); }
+.concept-a .join { background: #0c1e2d; color: var(--cream); border-top: 1px solid var(--brass); }
+.concept-a .join-scene { background: radial-gradient(ellipse 45% 80% at 50% 120%, #b2673459, transparent 85%); }
+.concept-a .join .eyebrow { color: var(--brass); }
+.concept-a .join p:not(.eyebrow) { color: #bbc4b6; }
+.concept-a .site-footer { background: #091721; color: #afbbaf; border-top: 1px solid #bca16a38; }
+.concept-a .site-footer .brand { color: var(--cream); }
+@media (min-width: 1321px) {
+  .concept-a main, .concept-a .site-footer { box-shadow: 0 0 60px #0004; }
+}
+@media (max-width: 1050px) {
+  .concept-a .founding-layout { gap: 50px; }
+  .concept-a .life-layout { grid-template-columns: 1fr .45fr; gap: 20px; }
+  .concept-a .faq-layout { gap: 45px; }
+}
+@media (max-width: 800px) {
+  .concept-a .field-map { display: none; }
+  .concept-a .life-layout { display: block; }
+  .concept-a .rp-layout { grid-template-columns: .5fr 1fr; gap: 40px; }
+  .concept-a .principles li { padding: 0 20px; }
+}
+@media (max-width: 650px) {
+  .concept-a .hero-content { padding: 37px 24px 46px; }
+  .concept-a .hero-emblem { width: 97px; height: 97px; margin-bottom: 25px; }
+  .concept-a .hero-emblem .hearth-mark { width: 65px; height: 65px; }
+  .concept-a .hero-game { font-size: 10px; }
+  .concept-a .wordmark { font-size: clamp(49px, 14vw, 78px); }
+  .concept-a .hero-description { font-size: 19px; }
+  .concept-a .hero-foot { padding: 19px 15px; }
+  .concept-a .founding-layout, .concept-a .faq-layout { display: block; }
+  .concept-a .founding-copy { margin-top: 30px; }
+  .concept-a .founding-copy blockquote { font-size: 25px; padding-left: 17px; }
+  .concept-a .activities { grid-template-columns: 1fr; }
+  .concept-a .rp-layout { display: block; }
+  .concept-a .rp-illustration { display: none; }
+  .concept-a .principles { grid-template-columns: 1fr; gap: 27px; }
+  .concept-a .principles li, .concept-a .principles li:first-child, .concept-a .principles li:last-child { border: 0; padding: 0; display: flex; gap: 18px; }
+  .concept-a .principle-number { margin-top: 5px; }
+  .concept-a .culture .section-heading { text-align: left; }
+  .concept-a .faq-list { margin-top: 35px; }
+}

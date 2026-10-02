@@ -1,0 +1,125 @@
+/* B / Reinterpretation: an illustrated wilderness journal, lit from within. */
+.concept-b {
+  --font-heading: 'Cormorant Garamond', Georgia, serif;
+  --font-mark: 'Cormorant Garamond', Georgia, serif;
+  --brass: #bba17a;
+  --ember: #e5a267;
+  --fire-core: #f5d4a4;
+  --rule: #8ca19a30;
+  --pale: #ebe5d8;
+  --muted: #b2bdb4;
+  --forest: #122322;
+  --content-width: 1160px;
+  background: #0b1719;
+  color: var(--pale);
+}
+.concept-b h2 { font-size: clamp(39px, 4.3vw, 60px); font-weight: 500; }
+.concept-b h3 { font-size: 27px; font-weight: 500; }
+.concept-b .site-header { max-width: 1440px; color: #d8dacc; background: #0d1a1d; }
+.concept-b .brand { font-size: 29px; font-variant: small-caps; letter-spacing: .045em; }
+.concept-b .hero { min-height: 735px; background: #0e2029; }
+.concept-b .hero-scene { background: linear-gradient(90deg, #0e2029 0%, #0e2029e6 23%, #0e202969 47%, #0e202905 70%), linear-gradient(0deg, #0b1719 0%, transparent 25%), url('./assets/wilderness.svg') center 57% / cover no-repeat; }
+.concept-b .hero-content { max-width: 1440px; margin: 0 auto; padding: 54px var(--gutter) 58px; }
+.concept-b .hero-emblem { display: none; }
+.concept-b .hero-game { color: #b2bcb2; font-size: 12px; letter-spacing: .18em; margin-bottom: 19px; }
+.concept-b .wordmark { font-size: clamp(62px, 6.9vw, 92px); font-weight: 500; letter-spacing: -.035em; }
+.concept-b .hero-identity { color: #bbc6ba; font-size: 10px; letter-spacing: .12em; }
+.concept-b .ornament { display: none; }
+.concept-b .tagline { max-width: 480px; font-family: var(--font-heading); font-size: clamp(43px, 4.7vw, 60px); line-height: 1.03; color: #edcfa2; letter-spacing: -.035em; margin: 28px 0 22px; }
+.concept-b .a-break { display: none; }
+.concept-b .hero-description { max-width: 386px; color: #c1cabe; font-size: 20px; }
+.concept-b .hero-action { align-items: flex-start; margin-top: 26px; }
+.concept-b .button { font-family: var(--font-body); font-size: 18px; background: #e5a267; border-color: #e5a267; padding-left: 26px; padding-right: 26px; }
+.concept-b .button:hover { background: var(--fire-core); }
+.concept-b .invite-note { color: #b2bdb4; }
+.concept-b .hero-foot { max-width: 1280px; margin: auto; padding: 25px 0; border-top: 1px solid #bba17a40; color: #a8b6ab; width: calc(100% - var(--gutter) * 2); }
+.concept-b .section { border-top: 1px solid #798c7a18; }
+.concept-b .section-heading .eyebrow, .concept-b .rp-copy .eyebrow { color: #bdab88; }
+.concept-b .section-index { color: #788c7e; }
+.concept-b .section-intro { color: var(--muted); }
+.concept-b .founding { background: radial-gradient(ellipse at 90% 100%, #2c3a2f30, transparent 60%), #0b1719; }
+.concept-b .founding-layout { display: grid; grid-template-columns: 1fr 1.12fr; gap: 115px; }
+.concept-b .founding-copy { color: var(--muted); }
+.concept-b .founding-copy blockquote { color: #dfc29b; font-size: 30px; border-left: 0; padding: 19px 0 20px; margin: 19px 0; border-top: 1px solid #bba17a40; border-bottom: 1px solid #bba17a40; font-family: var(--font-heading); }
+.concept-b .founding-last { color: #b2bdb4; }
+.concept-b .guild-life { background: #122322; }
+.concept-b .life-heading { align-items: start; }
+.concept-b .life-heading .section-intro { margin-top: 38px; max-width: 365px; }
+.concept-b .life-heading h2 { max-width: 530px; }
+.concept-b .activities { grid-template-columns: repeat(3, 1fr); gap: 36px 45px; }
+.concept-b .activity { gap: 18px; padding-top: 23px; border-top: 1px solid #bba17a40; }
+.concept-b .activity > svg { color: #c1a57f; margin-top: 4px; width: 31px; height: 31px; }
+.concept-b .activity p { color: var(--muted); }
+.concept-b .field-map { display: none; }
+.concept-b .roleplay { background: radial-gradient(ellipse at 18% 50%, #6a57342e, transparent 50%), #101d1e; overflow: hidden; }
+.concept-b .rp-layout { grid-template-columns: .9fr 1fr; gap: 110px; max-width: 1060px; }
+.concept-b .rp-illustration { position: relative; padding: 27px 0; }
+.concept-b .rp-illustration::before { content: ''; position: absolute; inset: -40px -35px; background: radial-gradient(ellipse, #e5a26716, transparent 63%); }
+.concept-b .rp-illustration img { width: 290px; opacity: .85; }
+.concept-b .rp-illustration span { color: #bba17a; margin-top: 20px; }
+.concept-b .rp-copy > p:not(.eyebrow) { color: var(--muted); }
+.concept-b .rp-copy blockquote { color: #e2c49e; font-family: var(--font-heading); font-size: 33px; }
+.concept-b .culture { background-color: #1b2925; background-image: radial-gradient(ellipse at 100% 20%, #72734c13, transparent 65%); }
+.concept-b .culture .section-inner { display: grid; grid-template-columns: .9fr 1.1fr; gap: 110px; }
+.concept-b .culture h2 { max-width: 390px; }
+.concept-b .principles { margin-top: 0; }
+.concept-b .principles li { display: flex; gap: 24px; padding: 25px 0 28px; border-top: 1px solid #bba17a40; }
+.concept-b .principles li:first-child { padding-top: 0; border: 0; }
+.concept-b .principles li:last-child { padding-bottom: 0; }
+.concept-b .principle-number { font-family: var(--font-body); color: #bba17a; font-size: 14px; padding-top: 5px; }
+.concept-b .principles p { color: var(--muted); }
+.concept-b .questions { background: #0b1719; }
+.concept-b .faq-layout { max-width: 870px; }
+.concept-b .questions .section-heading { text-align: center; margin-bottom: 45px; }
+.concept-b .questions h2 br { display: none; }
+.concept-b .faq-list summary { font-family: var(--font-heading); font-size: 27px; padding: 24px 0; }
+.concept-b .faq-list summary:hover { color: var(--fire-core); }
+.concept-b .faq-icon { color: var(--brass); }
+.concept-b .answer { color: var(--muted); font-size: 19px; }
+.concept-b .join { background: #112329; padding-top: 105px; padding-bottom: 115px; }
+.concept-b .join-scene { opacity: .55; background: linear-gradient(0deg, #0b1719, #0b1719d9 30%, #0b1719b3 80%, #0b1719), url('./assets/wilderness.svg') center 70% / cover no-repeat; }
+.concept-b .join .eyebrow { color: #c9ae89; }
+.concept-b .join h2 { font-size: clamp(42px, 4.6vw, 67px); }
+.concept-b .join p:not(.eyebrow) { color: #bac3b6; }
+.concept-b .site-footer { background: #0a1517; color: #aebbb0; border-top: 1px solid var(--rule); }
+.concept-b .site-footer .brand { font-size: 26px; color: var(--pale); }
+@media (min-width: 1600px) {
+  .concept-b .hero-content { padding-left: 80px; }
+}
+@media (max-width: 1050px) {
+  .concept-b .founding-layout { gap: 60px; }
+  .concept-b .culture .section-inner, .concept-b .rp-layout { gap: 60px; }
+  .concept-b .activities { grid-template-columns: 1fr 1fr; gap: 27px 35px; }
+}
+@media (max-width: 800px) {
+  .concept-b .hero-content { padding-top: 55px; padding-bottom: 55px; }
+  .concept-b .hero { min-height: 760px; }
+  .concept-b .hero-scene { background-position: center, center, 59% center; }
+  .concept-b .culture .section-inner { display: block; }
+  .concept-b .culture h2 { max-width: 100%; }
+  .concept-b .principles { margin-top: 38px; }
+  .concept-b .rp-layout { grid-template-columns: .6fr 1fr; gap: 35px; }
+}
+@media (max-width: 650px) {
+  .concept-b .hero { min-height: 0; }
+  .concept-b .hero-content { padding: 50px 24px 171px; }
+  .concept-b .hero-game { font-size: 10px; margin-bottom: 20px; }
+  .concept-b .wordmark { font-size: clamp(54px, 15vw, 90px); }
+  .concept-b .hero-identity { font-size: 9px; letter-spacing: .07em; }
+  .concept-b .tagline { font-size: clamp(42px, 10vw, 57px); max-width: 380px; margin-top: 29px; }
+  .concept-b .hero-description { font-size: 19px; max-width: 340px; }
+  .concept-b .hero-scene { background: linear-gradient(0deg, #0b1719, #0e202920 18%, #0e2029b3 37%, #0e2029fa 67%), url('./assets/wilderness.svg') 72% bottom / auto 650px no-repeat; }
+  .concept-b .hero-foot { padding: 22px 0; }
+  .concept-b .founding-layout { display: block; }
+  .concept-b .founding-copy { margin-top: 30px; }
+  .concept-b .founding-copy blockquote { font-size: 28px; }
+  .concept-b .life-heading .section-intro { margin-top: 24px; }
+  .concept-b .activities { grid-template-columns: 1fr; gap: 25px; }
+  .concept-b .activity { padding-top: 21px; }
+  .concept-b .rp-layout { display: block; }
+  .concept-b .rp-illustration { padding: 0; margin-bottom: 35px; }
+  .concept-b .rp-illustration img { width: 148px; }
+  .concept-b .rp-illustration span { display: none; }
+  .concept-b .faq-list summary { font-size: 24px; }
+  .concept-b .join { padding-top: 80px; padding-bottom: 85px; }
+}
