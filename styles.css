@@ -106,6 +106,19 @@ a:hover { color: var(--ember-hi); }
   text-decoration-thickness: 1px;
   text-underline-offset: 3px;
 }
+/* A policy reference should read as part of the paragraph, with a quiet cue. */
+.policy-link {
+  color: inherit;
+  text-decoration-line: underline;
+  text-decoration-color: var(--ink-muted);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+  transition: color .2s, text-decoration-color .2s;
+}
+.policy-link:hover {
+  color: var(--deep-rust);
+  text-decoration-color: currentColor;
+}
 
 /* Footer wordmark doubles as a back-to-top link; keep it looking like the
    wordmark, just tappable. */
@@ -460,8 +473,8 @@ a:hover { color: var(--ember-hi); }
 .eyebrow {
   font-family: var(--f-label);
   font-weight: 700;
-  font-size: 13px;
-  letter-spacing: .2em;
+  font-size: 15px;
+  letter-spacing: .14em;
   color: var(--rust);
   text-align: center;
   margin-bottom: 16px;
@@ -471,7 +484,7 @@ a:hover { color: var(--ember-hi); }
 .heading {
   font-family: var(--f-heading);
   font-weight: 700;
-  font-size: clamp(21px, 4.3vw, 26px);
+  font-size: clamp(21px, 4.3vw, 24px);
   color: var(--ink-heading);
   text-align: center;
   line-height: 1.3;
@@ -790,7 +803,6 @@ html { scroll-padding-top: 24px; }
 .gl__intro { margin-top: 24px; }
 .dolist { padding: 0; list-style: none; }
 .charter-item__title { margin: 0; }
-.charter-coda { max-width: 720px; margin-left: auto; margin-right: auto; line-height: 1.7; }
 .faq__list { margin-top: 26px; }
 .faq__q { list-style: none; }
 .faq__q::-webkit-details-marker { display: none; }
@@ -801,6 +813,5 @@ html { scroll-padding-top: 24px; }
 @media (max-width: 420px) {
   .hero__identity { font-size: 13px; }
   .hero__identity span { padding: 0 3px; }
-  .founding-quote br { display: none; }
   .cta, .cta--cool { padding-left: 22px; padding-right: 22px; }
 }

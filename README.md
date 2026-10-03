@@ -77,16 +77,16 @@ Bring enough mettle to learn your character, take on difficult content, communic
 Good fellowship is about more than playing well. Treat people decently, act with integrity, and respect their boundaries. Harassment, bullying, bigotry, discrimination, and personal attacks are not welcome here.
 
 **IV. The Wipes & Wisdom**
-**Recover, regroup, learn what you can, and move forward.**
+**Recover, regroup, learn what you can, adjust, and move forward.**
 
 Things will go wrong, both in real life and in the game, and that’s just how it is. Plans fall apart, people make mistakes, groups wipe, corpse runs happen, and sometimes an evening just goes sideways.
 
-We recover, regroup, learn what we can, adjust, and move forward. A good attitude and a willingness to improve protect the camaraderie the guild runs on and can turn wipes into wisdom, both in game and out.
+What matters is how we handle these things. Own mistakes, help each other recover, keep perspective, and don’t let frustration take over. Sometimes there’s something to learn from it, and sometimes you just have to laugh or brush it off and try again.
 
 **V. The Lore & Legends**
 **Make room for story and immersion.**
 
-Part of Hearthlight is treating Eth-ur like a world worth inhabiting, not just a backdrop for game mechanics. RP can be as light as a few words in /say or grow more deeply into character relationships, recurring scenes, and adventures with an in-world reason.
+Part of Hearthlight is treating Eth-ur like a world worth inhabiting, not just a backdrop for game mechanics. RP can be as light as a few words in /say, giving your character some lore and personality, or giving an adventure an in-world reason. It can also grow into recurring scenes, dynamic character relationships, and stories over time.
 
 Hearthlight is a light–medium RP guild, and people will engage with that at different depths. There is no required backstory, mandatory IC time, or overarching guild storyline to keep up with.
 
@@ -101,9 +101,9 @@ Message 3:
 
 The developers have made a game and a world we genuinely want to spend time in. Being part of it means grouping with strangers, trading, exploring, roleplaying, lending a hand, answering questions in OOC, and helping foster the kind of server culture you want to keep coming back to. In a shared world, what each of us adds to it matters.
 
-Play fairly, do not grief, respect camps and shared spaces, follow the [**Monsters & Memories Play Nice Policy**](https://account2.monstersandmemories.com/policy/pnp), and carry the Hearthlight name in a way that leaves people glad they crossed paths with us.
+Play fairly, do not grief, respect camps and shared spaces, follow the [Monsters & Memories Play Nice Policy](https://account2.monstersandmemories.com/policy/pnp), and carry the Hearthlight name in a way that leaves people glad they crossed paths with us.
 
-We fight the monsters, make the memories, and add something good to the world along the way, all in good company together.
+*We fight the monsters, make the memories, and add something good to the world along the way, all in good company together.*
 
 **For Discord**
 Keep things roughly in their appropriate channels, but nobody is going to police every conversation that wanders off-topic.
