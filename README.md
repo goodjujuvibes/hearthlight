@@ -29,12 +29,12 @@ Run `python3 -m http.server 8000` from the repository root, then open `http://lo
 
 ## Charter and Discord guidelines
 
-The website Charter in `index.html` is the canonical Hearthlight guideline text. The Discord-ready copy below matches it verbatim, including all six headings, principles, paragraphs, and closing notes. Keep this copy synchronized with the website; do not create a separately rewritten Discord ruleset.
+The website Charter in `index.html` is the canonical Hearthlight guideline text. The Discord-ready copy below matches it verbatim, including all six headings, principles, paragraphs, emphasis, and the closing line. Keep this copy synchronized with the website; do not create a separately rewritten Discord ruleset.
 
 Discord alone has the short operational appendix after the Charter: channel guidance and the 👍 Traveler-to-Wayfarer process. The Charter itself is identical everywhere.
 
 <details>
-<summary>Copy for Discord #guidelines (2 messages)</summary>
+<summary>Copy for Discord #guidelines (3 messages)</summary>
 
 Message 1:
 
@@ -43,54 +43,60 @@ Message 1:
 Guidelines for good company
 
 **I. The fire and frontier**
-**Take part in the world.**
-Group up, explore, ask questions, share what you find, and start something when the mood strikes. Hearthlight should be more than a silent tag over your head.
+**Take part in the world. The hearth stays lit for you.**
 
-You do not have to be constantly active, but when you are around, be part of the company.
+Hearthlight is the cozy, familiar fireside you return to and the light you carry beyond it: the warmth of home, the campfire in the wilderness, and the lantern that lights the way into Eth-ur’s Age of Discovery.
+
+Together we explore that frontier, journeying across Aêthoril and down into the Deep to discover and brave whatever this sundered world has in store. Group up, explore, ask questions, share what you find, start something, and invite someone along.
 
 **II. The road and return**
-**Real life comes first.**
-People play at different speeds, pursue different interests, take breaks, disappear for a while, and come back when life allows. There are no attendance requirements and no race to cap.
+**Real life comes first. Participation still matters.**
 
-No attendance requirement means you do not owe Hearthlight your time. The participation expectation means that when you are around, actually be part of the guild.
+The road is yours to walk at your own pace, and the hearth stays lit when you return. People naturally play at different speeds, take breaks, explore different things, and step away for a while. None of it puts you outside the company.
 
-If you committed to a group, event, or something involving other people and plans change, communicate when you reasonably can.
+There are no attendance requirements because you do not owe the guild your time. The participation expectation means that when you *are* around, actually be part of the guild: group up, talk, ask or answer questions, invite someone to explore, ask for help with a quest, or lend someone else a hand. Membership should be more than a mere silent guild tag.
 
-**III. The mirth and mettle**
-**Be someone people want in the group.**
-Learn your character, communicate, cooperate, and take feedback well. Treat people decently, respect their boundaries, and remember there are actual people behind the characters and Discord names.
-
-Harassment, bullying, bigotry, personal attacks, and public pile-ons are not welcome here. Explicit sexual content, graphic NSFW material, and sexual RP do not belong in Hearthlight’s shared spaces.
-
-Bring enough mettle to face difficult things and enough mirth not to make the game miserable when something goes wrong.
-
-**IV. The wipes and wisdom**
-**Recover, regroup, and keep moving.**
-Bad pulls, wrong turns, corpse runs, mistakes, and real-life interruptions are part of the game. Learn what you can without turning setbacks into blame or drama.
-
-Sometimes the best thing to do is laugh, recover the bodies, and try again.
+Remember that real life comes first, but participation and communication still matter. If you committed to something involving other people and plans change, communicate when you reasonably can.
 ```
 
 Message 2:
 
 ```text
+**III. The mirth and mettle**
+**Be someone people want beside them.**
+
+Bring enough mettle to face difficult content and enough mirth to keep it fun when things go sideways. Learn your character, communicate, cooperate, take feedback well, and remember that nobody here is too good to laugh at a dumb death, including their own.
+
+Good company is about more than playing well. Treat people decently and respect their boundaries. Harassment, bullying, bigotry, personal attacks, and public pile-ons are not welcome here. Explicit sexual content, graphic NSFW material, and sexual RP do not belong in Hearthlight’s shared spaces.
+
+**IV. The wipes and wisdom**
+**Recover, regroup, learn what you can, and move forward.**
+
+Things will go wrong, both in real life and in the game, and that’s just how it is. Plans fall apart, people make mistakes, groups wipe, corpse runs happen, and sometimes an evening just goes sideways.
+
+We recover, regroup, learn what we can, adjust, and move forward. A good attitude and a willingness to improve are what turn wipes into wisdom and protect the camaraderie the guild runs on.
+
 **V. The lore and legends**
 **Let the world feel like a world.**
-Hearthlight is light–medium RP. Join in at whatever depth makes the game more fun for you.
 
-RP is collaborative. Respect other players’ boundaries, do not control another person’s character or outcomes without their consent, and keep what you know as a player separate from what your character knows.
+Part of the fun is inhabiting Eth-ur rather than treating it only as a backdrop for game content. Follow rumors, learn the lore, talk in character around a campfire, give an expedition an in-world reason, or let relationships and stories grow naturally out of the adventures you are already having.
 
-A few lines in /say around a campfire can be enough. Other times characters, stories, or whole adventures may grow into something deeper. Neither way is more correct.
+Hearthlight is light–medium RP, and people will engage with that at different depths. There is no required backstory, mandatory IC time, or overarching guild storyline to keep up with. RP is collaborative: respect other players’ boundaries, do not control their characters or outcomes without consent, and keep what you know as a player separate from what your character knows.
+```
 
+Message 3:
+
+```text
 **VI. The Monsters & Memories**
 **Leave a good name behind.**
-Aêthoril is bigger than Hearthlight. Group with strangers, trade, explore, roleplay, and become part of the server around us.
 
-Play fairly, do not grief, respect camps and shared spaces, follow the Monsters & Memories Play Nice Policy, and be the kind of people others are glad to run into again.
+Group with strangers, trade, explore, roleplay, lend a hand, answer questions in OOC, and help foster the kind of server culture you want to play in. In a shared world, reputation travels with you and reflects on the guild.
 
-We’re here to actually play Monsters & Memories together, to see what’s out there, and to remember that the people beside us matter as much as whatever we’re chasing.
+We’re here to actually play Monsters & Memories: to venture into dangerous places, delve into dungeons, chase discoveries, journey on expeditions, survive the perils, and come back with stories. The monsters are part of the adventure. The memories are what we make with the people beside us.
 
-These guidelines apply in game and in Discord. If something needs attention, contact a Founder privately. You do not have to confront someone first. Founders may step in as needed to uphold these guidelines.
+Play fairly, do not grief, respect camps and shared spaces, follow the **Monsters & Memories Play Nice Policy**, and carry the Hearthlight name in a way that leaves people glad to run into us again.
+
+That’s the whole idea: **fight the monsters, make the memories, and leave people glad they crossed paths with us, all in good company.**
 
 **For Discord**
 Keep things roughly in their appropriate channels, but nobody is going to police every conversation that wanders off-topic.
