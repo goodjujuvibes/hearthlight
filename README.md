@@ -63,7 +63,7 @@ The road is yours to walk at your own pace, and the hearth stays lit when you re
 
 There are no attendance requirements because you do not owe the guild your time. The participation expectation means that when you are around, actually be part of the guild: group up, talk, ask or answer questions, invite someone to explore, ask for help with a quest, or lend someone else a hand. Membership should be more than a mere silent guild tag.
 
-Remember that real life comes first, but participation and communication still matter. If you committed to something involving other people and plans change, communicate when you reasonably can.
+If you committed to something involving other people and plans change, communicate when you reasonably can.
 ```
 
 Message 2:
