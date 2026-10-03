@@ -42,19 +42,19 @@ Message 1:
 **THE CHARTER**
 Guidelines for good company
 
-**I. The fire and frontier**
-**Take part in the world. The hearth stays lit for you.**
+**I. The Fire & Frontier**
+**Take part in the world with a hearth that stays lit for you.**
 
 Hearthlight is the cozy, familiar fireside you return to and the light you carry beyond it: the warmth of home, the campfire in the wilderness, and the lantern that lights the way into Eth-ur’s Age of Discovery.
 
 Together we explore that frontier, journeying across Aêthoril and down into the Deep to discover and brave whatever this sundered world has in store. Group up, explore, ask questions, share what you find, start something, and invite someone along.
 
-**II. The road and return**
-**Real life comes first. Participation still matters.**
+**II. The Road & Return**
+**Real life comes first, and participation matters.**
 
 The road is yours to walk at your own pace, and the hearth stays lit when you return. People naturally play at different speeds, take breaks, explore different things, and step away for a while. None of it puts you outside the company.
 
-There are no attendance requirements because you do not owe the guild your time. The participation expectation means that when you *are* around, actually be part of the guild: group up, talk, ask or answer questions, invite someone to explore, ask for help with a quest, or lend someone else a hand. Membership should be more than a mere silent guild tag.
+There are no attendance requirements because you do not owe the guild your time. The participation expectation means that when you are around, actually be part of the guild: group up, talk, ask or answer questions, invite someone to explore, ask for help with a quest, or lend someone else a hand. Membership should be more than a mere silent guild tag.
 
 Remember that real life comes first, but participation and communication still matter. If you committed to something involving other people and plans change, communicate when you reasonably can.
 ```
@@ -62,41 +62,41 @@ Remember that real life comes first, but participation and communication still m
 Message 2:
 
 ```text
-**III. The mirth and mettle**
-**Be someone people want beside them.**
+**III. The Mirth & Mettle**
+**Be someone people want beside them, in game and out.**
 
-Bring enough mettle to face difficult content and enough mirth to keep it fun when things go sideways. Learn your character, communicate, cooperate, take feedback well, and remember that nobody here is too good to laugh at a dumb death, including their own.
+Bring enough mettle to learn your character, take on difficult content, communicate, cooperate, and take feedback well. Bring enough mirth to laugh at yourself, celebrate other people’s wins, make room for different personalities, and remember that we’re here to enjoy the game and have fun.
 
-Good company is about more than playing well. Treat people decently and respect their boundaries. Harassment, bullying, bigotry, personal attacks, and public pile-ons are not welcome here. Explicit sexual content, graphic NSFW material, and sexual RP do not belong in Hearthlight’s shared spaces.
+Good fellowship is about more than playing well. Treat people decently, act with integrity, and respect their boundaries. Harassment, bullying, bigotry, discrimination, and personal attacks are not welcome here.
 
-**IV. The wipes and wisdom**
+**IV. The Wipes & Wisdom**
 **Recover, regroup, learn what you can, and move forward.**
 
 Things will go wrong, both in real life and in the game, and that’s just how it is. Plans fall apart, people make mistakes, groups wipe, corpse runs happen, and sometimes an evening just goes sideways.
 
-We recover, regroup, learn what we can, adjust, and move forward. A good attitude and a willingness to improve are what turn wipes into wisdom and protect the camaraderie the guild runs on.
+We recover, regroup, learn what we can, adjust, and move forward. A good attitude and a willingness to improve protect the camaraderie the guild runs on and can turn wipes into wisdom, both in game and out.
 
-**V. The lore and legends**
-**Let the world feel like a world.**
+**V. The Lore & Legends**
+**Make room for story and immersion.**
 
-Part of the fun is inhabiting Eth-ur rather than treating it only as a backdrop for game content. Follow rumors, learn the lore, talk in character around a campfire, give an expedition an in-world reason, or let relationships and stories grow naturally out of the adventures you are already having.
+Part of Hearthlight is treating Eth-ur like a world worth inhabiting, not just a backdrop for game mechanics. RP can be as light as a few words in /say or grow more deeply into character relationships, recurring scenes, and adventures with an in-world reason.
 
-Hearthlight is light–medium RP, and people will engage with that at different depths. There is no required backstory, mandatory IC time, or overarching guild storyline to keep up with. RP is collaborative: respect other players’ boundaries, do not control their characters or outcomes without consent, and keep what you know as a player separate from what your character knows.
+Hearthlight is a light–medium RP guild, and people will engage with that at different depths. There is no required backstory, mandatory IC time, or overarching guild storyline to keep up with.
+
+Remember that RP is collaborative: respect other players’ boundaries, do not control their characters or outcomes without consent, and keep what you know as a player separate from what your character knows.
 ```
 
 Message 3:
 
 ```text
 **VI. The Monsters & Memories**
-**Leave a good name behind.**
+**Be part of what makes the game worth remembering.**
 
-Group with strangers, trade, explore, roleplay, lend a hand, answer questions in OOC, and help foster the kind of server culture you want to play in. In a shared world, reputation travels with you and reflects on the guild.
+The developers have made a game and a world we genuinely want to spend time in. Being part of it means grouping with strangers, trading, exploring, roleplaying, lending a hand, answering questions in OOC, and helping foster the kind of server culture you want to keep coming back to. In a shared world, what each of us adds to it matters.
 
-We’re here to actually play Monsters & Memories: to venture into dangerous places, delve into dungeons, chase discoveries, journey on expeditions, survive the perils, and come back with stories. The monsters are part of the adventure. The memories are what we make with the people beside us.
+Play fairly, do not grief, respect camps and shared spaces, follow the [**Monsters & Memories Play Nice Policy**](https://account2.monstersandmemories.com/policy/pnp), and carry the Hearthlight name in a way that leaves people glad they crossed paths with us.
 
-Play fairly, do not grief, respect camps and shared spaces, follow the **Monsters & Memories Play Nice Policy**, and carry the Hearthlight name in a way that leaves people glad to run into us again.
-
-That’s the whole idea: **fight the monsters, make the memories, and leave people glad they crossed paths with us, all in good company.**
+We fight the monsters, make the memories, and add something good to the world along the way, all in good company together.
 
 **For Discord**
 Keep things roughly in their appropriate channels, but nobody is going to police every conversation that wanders off-topic.
