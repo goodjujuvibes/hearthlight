@@ -103,7 +103,7 @@ The developers have made a game and a world we genuinely want to spend time in. 
 
 Play fairly, do not grief, respect camps and shared spaces, follow the [Monsters & Memories Play Nice Policy](https://account2.monstersandmemories.com/policy/pnp), and carry the Hearthlight name in a way that leaves people glad they crossed paths with us.
 
-*We fight the monsters, make the memories, and add something good to the world along the way, all in good company together.*
+We fight the monsters, make the memories, and add something good to the world along the way, all in good company together.
 
 **For Discord**
 Keep things roughly in their appropriate channels, but nobody is going to police every conversation that wanders off-topic.
