@@ -19,6 +19,7 @@ The page order is hero, founding, guild life, short charter, roleplay, questions
 | `styles.css` | The archived visual foundation with targeted additions for the new content. |
 | `app.js` | Shared Discord invite setting for the join buttons and FAQ link. |
 | `fonts.css`, `assets/fonts/` | The original Almendra SC, Vollkorn, Cardo, and EB Garamond families, self-hosted with license notices. |
+| `favicon.svg` | The original flame favicon at a stable, crawlable URL. |
 | `hearthlight-mark.svg`, `hearthlight-social.png` | Original hearth glyph and the Hearthlight social preview card. |
 | `CNAME`, `robots.txt`, `sitemap.xml` | References for `hearthlightguild.com`. |
 | `.github/workflows/deploy.yml` | GitHub Pages deployment on pushes to `main`. |

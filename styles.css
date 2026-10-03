@@ -34,7 +34,7 @@
   --night-motto: #e7dcc7;
   --night-body: #a6b094;
   --night-italic: #c3c9b8;
-  --night-meta: #9aa88c;
+  --night-meta: #f3e9d4;
 
   /* fonts */
   --f-wordmark: 'Almendra SC', serif;
@@ -96,6 +96,10 @@ a:hover { color: var(--ember-hi); }
   transition: color .2s;
 }
 .mmlink:hover { color: var(--ember); }
+/* Keep linked text readable on parchment in its hover state. */
+.body .mmlink:hover { color: var(--deep-rust); }
+/* The footer's game link sits over brighter firelight than the hero link. */
+.colophon__meta .mmlink:hover { color: var(--ember-hi); }
 /* Underlined variant (used in the Small by Design section). */
 .mmlink--u {
   text-decoration-line: underline;
@@ -337,7 +341,7 @@ a:hover { color: var(--ember-hi); }
   font-weight: 600;
   font-size: 15px;
   letter-spacing: .12em;
-  color: var(--ember-hi);
+  color: var(--night-motto);
   border: 1.5px solid var(--brass);
   background: rgba(232, 150, 63, .14);
   padding: 16px 40px;
@@ -539,7 +543,7 @@ a:hover { color: var(--ember-hi); }
   color: var(--ink-heading);
   transition: color .18s;
 }
-.faq__item--amber .faq__question:hover { color: var(--rust); }
+.faq__item--amber .faq__question:hover { color: var(--deep-rust); }
 .faq__item--teal  .faq__question:hover { color: var(--teal); }
 .faq__icon {
   font-family: var(--f-heading);
