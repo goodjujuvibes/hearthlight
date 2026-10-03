@@ -27,6 +27,12 @@ The page order is hero, founding, guild life, short charter, roleplay, questions
 
 Run `python3 -m http.server 8000` from the repository root, then open `http://localhost:8000/`.
 
+The homepage preloads the four typefaces used in the hero. Font faces use
+`font-display: block` to avoid a flash of mismatched system fonts on a normal
+first load. The browser briefly waits to draw text; on an unusually slow or
+failed font request, readable fallback text remains available after its bounded
+block period. The original font files and weight selections are preserved.
+
 ## Charter and Discord guidelines
 
 The website Charter in `index.html` is the canonical Hearthlight guideline text. The Discord-ready copy below matches it verbatim, including all six headings, principles, paragraphs, emphasis, and the closing line. Keep this copy synchronized with the website; do not create a separately rewritten Discord ruleset.
