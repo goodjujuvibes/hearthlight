@@ -11,7 +11,7 @@ Hearthlight began in October 2026. Its founding group is still taking shape; the
 
 Plain static HTML, CSS, and vanilla JavaScript. No framework, dependencies, or build step. The visual foundation is the original Hearth & Harbor site at `18f9589`: dark blue night, stars, warm firelight, alternating parchment, brass, restrained teal, and its original typography and hearth mark.
 
-The page order is hero, founding, guild life, roleplay, short charter, questions, and closing invitation. The old roster and harbor-specific imagery are removed.
+The page order is hero, founding, guild life, short charter, roleplay, questions, and closing invitation. The old roster and harbor-specific imagery are removed.
 
 | File | Purpose |
 |---|---|
