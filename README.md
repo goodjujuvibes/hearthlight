@@ -29,12 +29,12 @@ Run `python3 -m http.server 8000` from the repository root, then open `http://lo
 
 ## Charter and Discord guidelines
 
-The six-part website Charter is the shared guideline set for Hearthlight, in game and in Discord. Its plain statements cover participation, real-life commitments, respectful conduct and shared content boundaries, setbacks, RP consent and character knowledge, and the wider server community. The closing note explains how to raise concerns and how Founders uphold the guidelines.
+The website Charter in `index.html` is the canonical Hearthlight guideline text. The Discord-ready copy below matches it verbatim, including all six headings, principles, paragraphs, and closing notes. Keep this copy synchronized with the website; do not create a separately rewritten Discord ruleset.
 
-The Discord-ready draft below uses the same Charter text, with only channel guidance and the welcome reaction added. Keep it synchronized with the Charter in `index.html`.
+Discord alone has the short operational appendix after the Charter: channel guidance and the 👍 Traveler-to-Wayfarer process. The Charter itself is identical everywhere.
 
 <details>
-<summary>Copy for Discord #guidelines (two messages)</summary>
+<summary>Copy for Discord #guidelines (2 messages)</summary>
 
 Message 1:
 
@@ -44,38 +44,58 @@ Guidelines for good company
 
 **I. The fire and frontier**
 **Take part in the world.**
-Group up, explore, ask questions, share what you find, and start things when the mood strikes. Hearthlight should be more than a silent tag over your head. You don’t have to be constantly active, but when you’re around, be part of the company.
+Group up, explore, ask questions, share what you find, and start something when the mood strikes. Hearthlight should be more than a silent tag over your head.
+
+You do not have to be constantly active, but when you are around, be part of the company.
 
 **II. The road and return**
 **Real life comes first.**
-People play at different speeds, take breaks, disappear for a while, and come back when life allows. There are no attendance requirements and no race to cap. If you committed to something and plans change, communicate when you reasonably can.
+People play at different speeds, pursue different interests, take breaks, disappear for a while, and come back when life allows. There are no attendance requirements and no race to cap.
+
+No attendance requirement means you do not owe Hearthlight your time. The participation expectation means that when you are around, actually be part of the guild.
+
+If you committed to a group, event, or something involving other people and plans change, communicate when you reasonably can.
 
 **III. The mirth and mettle**
 **Be someone people want in the group.**
-Learn your character, communicate, cooperate, and take feedback well. Treat people decently. No harassment, bullying, bigotry, personal attacks, or public pile-ons. Respect boundaries and back off when asked. Explicit sexual content, graphic NSFW material, and sexual RP don’t belong in Hearthlight’s shared spaces.
+Learn your character, communicate, cooperate, and take feedback well. Treat people decently, respect their boundaries, and remember there are actual people behind the characters and Discord names.
+
+Harassment, bullying, bigotry, personal attacks, and public pile-ons are not welcome here. Explicit sexual content, graphic NSFW material, and sexual RP do not belong in Hearthlight’s shared spaces.
+
+Bring enough mettle to face difficult things and enough mirth not to make the game miserable when something goes wrong.
+
+**IV. The wipes and wisdom**
+**Recover, regroup, and keep moving.**
+Bad pulls, wrong turns, corpse runs, mistakes, and real-life interruptions are part of the game. Learn what you can without turning setbacks into blame or drama.
+
+Sometimes the best thing to do is laugh, recover the bodies, and try again.
 ```
 
 Message 2:
 
 ```text
-**IV. The wipes and wisdom**
-**Recover, regroup, and keep moving.**
-Bad pulls, wrong turns, corpse runs, mistakes, and real-life interruptions are part of the game. Learn what you can without turning setbacks into blame. Bring enough mettle to improve and enough mirth to laugh when everything goes spectacularly wrong.
-
 **V. The lore and legends**
-**Keep RP optional, collaborative, and respectful.**
-Join in at the depth you enjoy. Respect other players’ boundaries, don’t control their characters without consent, and keep what you know as a player separate from what your character knows in RP.
+**Let the world feel like a world.**
+Hearthlight is light–medium RP. Join in at whatever depth makes the game more fun for you.
+
+RP is collaborative. Respect other players’ boundaries, do not control another person’s character or outcomes without their consent, and keep what you know as a player separate from what your character knows.
+
+A few lines in /say around a campfire can be enough. Other times characters, stories, or whole adventures may grow into something deeper. Neither way is more correct.
 
 **VI. The Monsters & Memories**
 **Leave a good name behind.**
-Aêthoril is bigger than Hearthlight. Group with strangers, trade, explore, roleplay, and become part of the server around us. Play fairly, don’t grief, respect camps and shared spaces, follow the Monsters & Memories Play Nice Policy, and be the kind of people others are glad to run into again.
+Aêthoril is bigger than Hearthlight. Group with strangers, trade, explore, roleplay, and become part of the server around us.
 
-These guidelines apply in game and in Discord. If something needs attention, contact a Founder privately. You don’t have to confront someone first. Founders may step in, remove content, or remove access when needed to uphold these guidelines.
+Play fairly, do not grief, respect camps and shared spaces, follow the Monsters & Memories Play Nice Policy, and be the kind of people others are glad to run into again.
 
 We’re here to actually play Monsters & Memories together, to see what’s out there, and to remember that the people beside us matter as much as whatever we’re chasing.
 
+These guidelines apply in game and in Discord. If something needs attention, contact a Founder privately. You do not have to confront someone first. Founders may step in as needed to uphold these guidelines.
+
 **For Discord**
-Please keep posts in the appropriate channels. If you’ve read, understand, and agree with the Charter, react 👍 to this message. A Founder will welcome you in as a Wayfarer. If you need clarification or help with an issue, message a Founder privately.
+Keep things roughly in their appropriate channels, but nobody is going to police every conversation that wanders off-topic.
+
+If you’ve read, understand, and are good with the Charter above, react 👍 to this message. One of the Founders will welcome you from Traveler to Wayfarer.
 ```
 
 </details>

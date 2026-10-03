@@ -14,4 +14,4 @@ a choice is weak, say so and why. Agreement is earned, not defaulted to.
 - Styling is token-driven (CSS custom properties in :root); reuse tokens rather
   than hardcoding colors. Tokens, colors, and typography follow the archived original site, not Concept A or B. Hearthlight is built by a founding group rather than around one traditional GM.
 
-- The website Charter and Discord guidelines share the same six principles and closing notes. When changing them, synchronize the Discord-ready copy in README.md. The Discord addendum covers channel guidance and the welcome reaction only.
+- The website Charter is the canonical guild guideline text. Keep the Discord-ready copy in README.md verbatim, including the six headings, principles, paragraphs, and closing-note order. Do not maintain a separately rewritten Discord ruleset. Only the operational appendix differs: channel guidance and the 👍 Traveler-to-Wayfarer process.
