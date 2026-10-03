@@ -2,7 +2,8 @@
 
 A small **Social PvE · Light–Medium RP** guild in [Monsters & Memories](https://www.monstersandmemories.com/), on **Tilustra, US East PvE**.
 
-> Good company for the Age of Discovery.
+> A warm place to return to.
+> Good company for the journeys ahead.
 
 Hearthlight began in October 2026. Its founding group is still taking shape; the guild is being built together rather than around one traditional GM.
 
@@ -14,9 +15,9 @@ The page order is hero, founding, guild life, roleplay, short charter, questions
 
 | File | Purpose |
 |---|---|
-| `index.html` | The Hearthlight homepage, metadata, FAQ, and Discord placeholder dialog. |
+| `index.html` | The Hearthlight homepage, metadata, short charter, and FAQ. |
 | `styles.css` | The archived visual foundation with targeted additions for the new content. |
-| `app.js` | Shared Discord invite setting, accessible dialog, and mobile Back behavior. |
+| `app.js` | Shared Discord invite setting for the join buttons and FAQ link. |
 | `fonts.css`, `assets/fonts/` | The original Almendra SC, Vollkorn, Cardo, and EB Garamond families, self-hosted with license notices. |
 | `hearthlight-mark.svg`, `hearthlight-social.png` | Original hearth glyph and the Hearthlight social preview card. |
 | `CNAME`, `robots.txt`, `sitemap.xml` | References for `hearthlightguild.com`. |
@@ -28,7 +29,7 @@ Run `python3 -m http.server 8000` from the repository root, then open `http://lo
 
 ## Discord invite
 
-Replace `null` in `const DISCORD_URL` at the top of `app.js` with the new Hearthlight invite. Both join links then open Discord, and the coming-soon notes disappear. Until then, the links open an accessible, honestly labeled placeholder dialog. The old H&H invite is not used.
+Set `const DISCORD_URL` at the top of `app.js` to the Hearthlight invite. The join buttons and FAQ link open Discord directly. Keep their static `href` values in `index.html` in sync so they also work without JavaScript. If no valid invite is configured, the join buttons stay hidden; there is no placeholder dialog or coming-soon copy. The old H&H invite is not used.
 
 ## Deployment and domain
 
