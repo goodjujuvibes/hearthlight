@@ -11,13 +11,13 @@ Hearthlight began in October 2026. Its founding group is still taking shape; the
 
 Plain static HTML, CSS, and vanilla JavaScript. No framework, dependencies, or build step. The visual foundation is the original Hearth & Harbor site at `18f9589`: dark blue night, stars, warm firelight, alternating parchment, brass, restrained teal, and its original typography and hearth mark.
 
-The page order is hero, founding, guild life, short charter, roleplay, questions, and closing invitation. The old roster and harbor-specific imagery are removed.
+The page order is hero, beginning, guild life, Charter, light–medium RP, and closing invitation. The old roster and harbor-specific imagery are removed.
 
 | File | Purpose |
 |---|---|
-| `index.html` | The Hearthlight homepage, metadata, short charter, and FAQ. |
+| `index.html` | The Hearthlight homepage, metadata, Charter, and light–medium RP section. |
 | `styles.css` | The archived visual foundation with targeted additions for the new content. |
-| `app.js` | Shared Discord invite setting for the join buttons and FAQ link. |
+| `app.js` | Shared Discord invite setting for the join buttons. |
 | `fonts.css`, `assets/fonts/` | The original Almendra SC, Vollkorn, Cardo, and EB Garamond families, self-hosted with license notices. |
 | `favicon.svg` | The original flame favicon at a stable, crawlable URL. |
 | `hearthlight-mark.svg`, `hearthlight-social.png` | Original hearth glyph and the Hearthlight social preview card. |
@@ -115,7 +115,7 @@ If you’ve read, understand, and are good with the Charter above, react 👍 to
 
 ## Discord invite
 
-Set `const DISCORD_URL` at the top of `app.js` to the Hearthlight invite. The join buttons and FAQ link open Discord directly. Keep their static `href` values in `index.html` in sync so they also work without JavaScript. If no valid invite is configured, the join buttons stay hidden; there is no placeholder dialog or coming-soon copy. The old H&H invite is not used.
+Set `const DISCORD_URL` at the top of `app.js` to the Hearthlight invite. The join buttons open Discord directly. Keep their static `href` values in `index.html` in sync so they also work without JavaScript. If no valid invite is configured, the join buttons stay hidden; there is no placeholder dialog or coming-soon copy. The old H&H invite is not used.
 
 ## Deployment and domain
 

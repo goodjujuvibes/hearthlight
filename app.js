@@ -1,4 +1,4 @@
-/* Shared Hearthlight invite for join buttons and the FAQ link. */
+/* Shared Hearthlight invite for the join buttons. */
 const DISCORD_URL = 'https://discord.gg/GQsk74s2hz';
 
 (function () {
