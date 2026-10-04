@@ -13,5 +13,8 @@ a choice is weak, say so and why. Agreement is earned, not defaulted to.
 - Copy has no em dashes, by choice. Keep it that way.
 - Styling is token-driven (CSS custom properties in :root); reuse tokens rather
   than hardcoding colors. Tokens, colors, and typography follow the archived original site, not Concept A or B. Hearthlight is built by a founding group rather than around one traditional GM.
+- After changing the root styles.css, update its query version in index.html to
+  the first 12 characters of the stylesheet's SHA-256. This lets browsers fetch
+  published style changes without requiring a hard refresh.
 
 - The website Charter is the canonical guild guideline text. Keep the Discord-ready copy in README.md verbatim, including the six headings, principles, paragraphs, emphasis, and closing line. Do not maintain a separately rewritten Discord ruleset. Only the operational appendix differs: channel guidance and the 👍 Traveler-to-Wayfarer process.
