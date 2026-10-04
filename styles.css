@@ -106,18 +106,15 @@ a:hover { color: var(--ember-hi); }
   text-decoration-thickness: 1px;
   text-underline-offset: 3px;
 }
-/* A policy reference should read as part of the paragraph, with a quiet cue. */
+/* A warm inline reference, with weight and focus cues for discoverability. */
 .policy-link {
-  color: inherit;
-  text-decoration-line: underline;
-  text-decoration-color: var(--ink-muted);
-  text-decoration-thickness: 1px;
-  text-underline-offset: 3px;
-  transition: color .2s, text-decoration-color .2s;
+  color: var(--deep-rust);
+  font-weight: 600;
+  text-decoration: none;
+  transition: color .2s;
 }
 .policy-link:hover {
-  color: var(--deep-rust);
-  text-decoration-color: currentColor;
+  color: var(--ink-heading);
 }
 
 /* Footer wordmark doubles as a back-to-top link; keep it looking like the
@@ -664,9 +661,9 @@ a:hover { color: var(--ember-hi); }
 .charter-item__title .num { color: var(--rust); }
 .charter-item__desc {
   font-family: var(--f-body);
-  font-size: 16.5px;
+  font-size: 18px;
   color: var(--ink-body);
-  line-height: 1.7;
+  line-height: 1.75;
   margin-top: 6px;
 }
 .charter-item__desc p { margin: 0; }
@@ -735,11 +732,11 @@ html { scroll-padding-top: 24px; }
   font-weight: 500;
   font-size: clamp(19px, 3.4vw, 22px);
   line-height: 1.6;
-  color: var(--ink-heading);
+  color: var(--deep-rust);
   text-align: center;
   margin: 24px auto;
 }
-.rp-quote { color: var(--teal); }
+.founding-quote strong, .rp-quote strong { font-weight: inherit; }
 .gl__intro { margin-top: 24px; }
 .dolist { padding: 0; list-style: none; }
 .charter-item__title { margin: 0; }
