@@ -334,11 +334,11 @@ a:hover { color: var(--ember-hi); }
 }
 .hero__desc {
   font-family: var(--f-body);
-  font-size: 18px;
-  color: var(--night-body);
+  font-size: 19px;
+  color: var(--night-italic);
   max-width: 610px;
   margin-top: 18px;
-  line-height: 1.65;
+  line-height: 1.7;
 }
 .cta-row {
   display: flex;
@@ -554,8 +554,8 @@ a:hover { color: var(--ember-hi); }
 }
 .footer__body {
   font-family: var(--f-body);
-  font-size: 17px;
-  color: var(--night-body);
+  font-size: 19px;
+  color: var(--night-italic);
   max-width: 640px;
   margin: 20px auto 0;
   line-height: 1.7;
