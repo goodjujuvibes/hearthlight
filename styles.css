@@ -216,8 +216,8 @@ a:hover { color: var(--ember-hi); }
   flex: 1 1 auto;
   height: 1px;
 }
-.divider__line--amber { background: linear-gradient(90deg, transparent, var(--ember)); }
-.divider__line--teal  { background: linear-gradient(270deg, transparent, #5f8f98); }
+.divider__line--left  { background: linear-gradient(90deg, transparent, var(--brass)); }
+.divider__line--right { background: linear-gradient(270deg, transparent, var(--brass)); }
 .divider__dot {
   flex: none;
   width: 5px;
@@ -414,10 +414,6 @@ a:hover { color: var(--ember-hi); }
   background: linear-gradient(90deg, transparent, var(--brass) 30%, var(--brass) 70%, transparent);
   box-shadow: 0 0 8px rgba(176, 141, 79, .55);
 }
-.rule-teal {
-  background: linear-gradient(90deg, transparent, #6fb0bb 30%, #6fb0bb 70%, transparent);
-  box-shadow: 0 0 8px rgba(111, 176, 187, .55);
-}
 .strip__glow {
   position: absolute;
   left: 50%;
@@ -516,7 +512,7 @@ a:hover { color: var(--ember-hi); }
   break-inside: avoid;
   margin-bottom: 15px;
 }
-.mark { color: var(--teal); }
+.mark { color: var(--deep-rust); }
 @media (max-width: 760px) {
   .dolist { column-count: 1; max-width: 380px; }
 }
