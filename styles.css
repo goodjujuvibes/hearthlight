@@ -299,7 +299,7 @@ a:hover { color: var(--ember-hi); }
 }
 .wordmark--hero {
   font-size: clamp(32px, 8vw, 54px);
-  margin-top: clamp(14px, 2.5vw, 20px);
+  margin: clamp(14px, 2.5vw, 20px) 0 0;
   text-shadow: 0 0 36px rgba(232, 150, 63, .24);
 }
 .wordmark__amp { margin: 0 .25em 0 .1em; }
@@ -315,7 +315,8 @@ a:hover { color: var(--ember-hi); }
   font-family: var(--f-body);
   font-size: 20px;
   color: var(--ember);
-  margin-top: 14px;
+  margin: 12px 0 0;
+  line-height: 1.4;
   letter-spacing: 0.02em;
 }
 .hero__divider {
@@ -704,7 +705,8 @@ html { scroll-padding-top: 24px; }
   font-weight: 700;
   letter-spacing: .08em;
   color: var(--night-motto);
-  margin: 16px 0 0;
+  margin: 20px 0 0;
+  line-height: 1.5;
 }
 .hero__server {
   font-family: var(--f-body);
@@ -712,7 +714,8 @@ html { scroll-padding-top: 24px; }
   font-weight: 600;
   letter-spacing: .03em;
   color: var(--night-motto);
-  margin: 8px 0 0;
+  margin: 6px 0 0;
+  line-height: 1.4;
 }
 .hero__identity span, .hero__server span { padding: 0 7px; }
 .section-prose {
